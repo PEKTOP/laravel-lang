@@ -15,4 +15,14 @@ class LaravelLangServiceProvider extends ServiceProvider
     {
         $this->publishes([__DIR__.'../resources/lang' => base_path('resources/lang')]);
     }
+
+    /**
+     * Register any application services.
+     *
+     * @return void
+     */
+    public function register()
+    {
+        //
+    }
 }
