@@ -1,7 +1,7 @@
 {
-    "name": "pektop/laravel-lang-ru",
-    "description": "Russian language for Laravel",
-    "keywords": ["laravel", "language"],
+    "name": "pektop/laravel-lang",
+    "description": "Languages for Laravel",
+    "keywords": ["laravel", "language", "russian"],
     "require": {
         "illuminate/support": "5.0.x|5.1.x"
     },

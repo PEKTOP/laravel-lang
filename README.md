@@ -1,5 +1,12 @@
-# Русский язык для Laravel
+# Languages for Laravel
 
-Переведены строки из [официального репозитория фреймворка](https://github.com/laravel/laravel/tree/master/resources/lang/en)
+Language strings of [Laravel Framework](https://github.com/laravel/laravel/tree/master/resources/lang/en)
 
-Актуально для Laravel 5.1
+## Compatible with Laravel
+
+* 5.0
+* 5.1
+
+## Available languages
+
+* Russian
