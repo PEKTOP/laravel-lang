@@ -1,5 +1,10 @@
 ## Languages for Laravel
 
+[![Total Downloads](https://poser.pugx.org/pektop/laravel-lang/d/total.svg)](https://packagist.org/packages/pektop/laravel-lang)
+[![Latest Stable Version](https://poser.pugx.org/pektop/laravel-lang/v/stable.svg)](https://packagist.org/packages/pektop/laravel-lang)
+[![Latest Unstable Version](https://poser.pugx.org/pektop/laravel-lang/v/unstable.svg)](https://packagist.org/packages/pektop/laravel-lang)
+[![License](https://poser.pugx.org/pektop/laravel-lang/license.svg)](https://packagist.org/packages/pektop/laravel-lang)
+
 Language strings of [Laravel Framework](https://github.com/laravel/laravel/tree/master/resources/lang/en)
 
 ### Compatible with Laravel
