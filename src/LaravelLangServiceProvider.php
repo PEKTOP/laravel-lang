@@ -4,7 +4,7 @@ namespace LaravelLangRu;
 
 use Illuminate\Support\ServiceProvider;
 
-class LaravelLangRuServiceProvider extends ServiceProvider
+class LaravelLangServiceProvider extends ServiceProvider
 {
     public function boot()
     {
