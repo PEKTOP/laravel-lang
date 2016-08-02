@@ -11,6 +11,7 @@ Language strings of [Laravel Framework](https://github.com/laravel/laravel/tree/
 
 * 5.0
 * 5.1
+* 5.2
 
 ### Available languages
 
