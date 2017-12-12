@@ -16,11 +16,13 @@ return [
     'accepted'             => 'Вы должны принять :attribute.',
     'active_url'           => 'Поле :attribute is not a valid URL.',
     'after'                => 'Поле :attribute должно быть датой после :date.',
+    'after_or_equal'       => 'Поле :attribute должно быть датой после или равной :date.',
     'alpha'                => 'Поле :attribute может содержать только буквы.',
     'alpha_dash'           => 'Поле :attribute может содержать только буквы, цифры, дефис и подчеркивание.',
     'alpha_num'            => 'Поле :attribute может содержать только буквы и цифры.',
     'array'                => 'Поле :attribute должно быть массивом.',
     'before'               => 'Поле :attribute должно быть датой перед :date.',
+    'before_or_equal'      => 'Поле :attribute должно быть датой перед или равной :date.',
     'between' => [
         'numeric' => 'Поле :attribute должно быть между :min и :max.',
         'file'    => 'Размер :attribute должен быть от :min до :max килобайт.',
@@ -45,6 +47,8 @@ return [
     'in_array'             => 'Поле :attribute не существует в :other.',
     'integer'              => 'Поле :attribute должно быть целым числом.',
     'ip'                   => 'Поле :attribute должно быть действительным IP-адресом.',
+    'ipv4'                 => 'Поле :attribute должно быть действительным IPv4-адресом.',
+    'ipv6'                 => 'Поле :attribute должно быть действительным IPv6-адресом.',
     'json'                 => 'Поле :attribute должно быть валидной JSON строкой.',
     'max'                  => [
         'numeric' => 'Поле :attribute должно быть не больше :max.',
@@ -53,6 +57,7 @@ return [
         'array'   => 'Поле :attribute должно содержать не более :max элементов.',
     ],
     'mimes'                => 'Поле :attribute должно быть файлом одного из типов: :values.',
+    'mimetypes'            => 'Поле :attribute должно быть файлом одного из типов: :values.',
     'min'                  => [
         'numeric' => 'Поле :attribute должно быть не менее :min.',
         'file'    => 'Поле :attribute должно быть не менее :min Килобайт.',
@@ -80,6 +85,7 @@ return [
     'string'               => 'Поде :attribute должно быть строкой.',
     'timezone'             => 'Поле :attribute должнобыть валидной временной зоной.',
     'unique'               => 'Такое значение поля :attribute уже существует.',
+    'uploaded'             => 'Загрузка поля :attribute не удалась.',
     'url'                  => 'Поле :attribute имеет ошибочный формат.',
 
     /*
@@ -95,8 +101,8 @@ return [
 
     'custom' => [
         'attribute-name' => [
-            'rule-name' => 'custom-message'
-        ]
+            'rule-name' => 'custom-message',
+        ],
     ],
 
     /*
@@ -110,6 +116,6 @@ return [
     |
     */
 
-    'attributes' => []
+    'attributes' => [],
 
 ];
