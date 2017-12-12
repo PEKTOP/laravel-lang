@@ -28,16 +28,16 @@ Require this package with composer using the following command:
 composer require pektop/laravel-lang dev-master
 ```
 
-After updating composer, add the service provider to the `providers` array in `config/app.php`
+Add the service provider to the `providers` array in `config/app.php` (pass if you use Laravel 5.5)
 
 ```
-LaravelLang\LaravelLangServiceProvider::class
+LaravelLang\ServiceProvider::class
 ```
 
-Now you can publish resources
+You can publish resources now
 
 ```
-php artisan vendor:publish --provider="LaravelLang\LaravelLangServiceProvider"
+php artisan vendor:publish --provider="LaravelLang\ServiceProvider"
 ```
 
 ### License

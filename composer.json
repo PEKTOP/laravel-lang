@@ -17,5 +17,12 @@
         "psr-4": {
             "LaravelLang\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelLang\\ServiceProvider"
+            ]
+        }
     }
 }
