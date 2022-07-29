@@ -82,7 +82,7 @@ return [
         'string'  => 'Поле :attribute должно быть длиной :size символов.',
         'array'   => 'Количество элементов в поле :attribute должно быть :size.'
     ],
-    'string'               => 'Поде :attribute должно быть строкой.',
+    'string'               => 'Поле :attribute должно быть строкой.',
     'timezone'             => 'Поле :attribute должнобыть валидной временной зоной.',
     'unique'               => 'Такое значение поля :attribute уже существует.',
     'uploaded'             => 'Загрузка поля :attribute не удалась.',
